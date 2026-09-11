@@ -1,0 +1,17 @@
+{
+  "name": "discord-cross-server-role-sync",
+  "version": "1.0.0",
+  "description": "Sync selected Discord role names across every guild that shares this bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "check": "node --check index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1"
+  }
+}
